@@ -1,0 +1,30 @@
+{
+  "name": "open-ai-image-generator",
+  "version": "1.0.0",
+  "description": "AI Image Generator With OpenAI & Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MANOJ-M-01/Open-AI-Image-Generator.git"
+  },
+  "keywords": [
+    "Open AI",
+    "DALL-E",
+    "Image Generator"
+  ],
+  "author": "Manoj-M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MANOJ-M-01/Open-AI-Image-Generator/issues"
+  },
+  "homepage": "https://github.com/MANOJ-M-01/Open-AI-Image-Generator#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.1.0"
+  }
+}
