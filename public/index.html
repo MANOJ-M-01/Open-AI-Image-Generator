@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Open AI Image Generator</title>
+    <link rel='shortcut icon' href='favicon.png' type='image/x-icon'>
+    <link rel='stylesheet' href='style.css'>
+    <script src='./scripts.js' defer></script>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Zen+Dots&display=swap'
+        rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <img src='./favicon.png' alt='AI image generator'>
+        <h1>AI Image Generator</h1>
+        </div>
+    </header>
+    <section class='form-section'>
+        <form method='post'>
+            <input type='text' name='prompt' placeholder="eg. man on moon" />
+            <select name='size' title='size'>
+                <option selected value='small'>Small</option>
+                <option value='medium'>Medium</option>
+                <option value='large'>Large</option>
+            </select>
+            <div class='submission-container'>
+                <button type='submit'>Generate</button>
+                <div class='loader'></div>
+            </div>
+        </form>
+    </section>
+
+    <section class='preview-section'>
+        <h1>Preview</h1>
+        <div class='preview-container'></div>
+    </section>
+</body>
+
+</html>
