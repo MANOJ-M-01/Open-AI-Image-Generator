@@ -2,7 +2,7 @@
 
 - HTML
 - CSS
-- JavaSctipt
+- JavaScript
 - Node.js
 - Express.js
 - Open AI
