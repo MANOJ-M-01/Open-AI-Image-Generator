@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "AI Image Generator With OpenAI & Node.js",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
