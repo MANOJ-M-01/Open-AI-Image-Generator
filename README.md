@@ -12,6 +12,9 @@
 - PORT
 - OPENAI_API_KEY
 
+# Deployment Notes
+
+- Vercel Express.JS port 5000
 
 
 # Preview
